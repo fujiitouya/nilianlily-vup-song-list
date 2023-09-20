@@ -1,6 +1,6 @@
 {
   "name": "nilianlily.github.io",
-  "homepage": "https://vup-song-list.github.io/nilianlily.github.io",
+  "homepage": "https://vup-song-list.github.io/wuyanguo-vup-song-list",
   "version": "1.0.0",
   "private": false,
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "next lint",
     "export": "next export",
     "buildssg": "next build && next export",
-    "static": "next build && next export && touch ./out/.nojekyll && echo 'https://vup-song-list.github.io/nilianlily-vup-song-list/' > ./out/CNAME",
+    "static": "next build && next export && touch ./out/.nojekyll && echo 'https://vup-song-list.github.io/nilianlily-vup-song-list' > ./out/CNAME",
     "deploy": "gh-pages -d out -t true"
   },
   "dependencies": {
