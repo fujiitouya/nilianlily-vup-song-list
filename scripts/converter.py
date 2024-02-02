@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 
-song_df = pd.read_excel('./muisc.xlsx')
+song_df = pd.read_excel('./music.xlsx')
 song_df = song_df.where(pd.notnull(song_df), None)
 song_list = []
 
